@@ -1,5 +1,5 @@
 return {
-  -- Configure LazyVim to load gruvbox
+  -- Configure LazyVim to load ayu-mirage
   {
     "LazyVim/LazyVim",
     opts = {
