@@ -3,8 +3,14 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "ayu-mirage",
+      colorscheme = "default",
     },
+  },
+
+  -- terminal background
+  {
+    "typicode/bg.nvim",
+    lazy = false,
   },
 
   -- gruvbox
