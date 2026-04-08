@@ -1,16 +1,10 @@
 return {
-  -- Configure LazyVim to load ayu-mirage
+  -- Configure LazyVim to load ayu
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "default",
+      colorscheme = "ayu",
     },
-  },
-
-  -- terminal background
-  {
-    "typicode/bg.nvim",
-    lazy = false,
   },
 
   -- gruvbox
@@ -37,5 +31,11 @@ return {
   {
     "Shatur/neovim-ayu",
     name = "ayu",
+  },
+
+  -- terminal background
+  {
+    "typicode/bg.nvim",
+    lazy = false,
   },
 }
