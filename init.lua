@@ -2,6 +2,7 @@
 require("config.lazy")
 
 vim.api.nvim_set_keymap("i", "jj", "<Esc>", { noremap = false })
+vim.api.nvim_set_keymap("i", "JJ", "<Esc>", { noremap = false })
 
 -- Disable arrow keys + PageUp/PageDown in all relevant modes
 local function no_arrow(key, message)
