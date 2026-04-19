@@ -3,7 +3,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "ayu",
+      colorscheme = "quiet",
     },
   },
 
@@ -17,14 +17,6 @@ return {
   {
     "rose-pine/neovim",
     name = "rose-pine",
-  },
-
-  -- moonfly
-  {
-    "bluz71/vim-moonfly-colors",
-    name = "moonfly",
-    lazy = false,
-    priority = 1000,
   },
 
   -- ayu
